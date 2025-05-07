@@ -17,7 +17,7 @@ export default function Footer() {
         </a>
       </div>
       <p className="text-sm text-gray-400 mt-4">
-        © 2025 MyBrand. Barcha huquqlar himoyalangan.
+        © 2025 XM Store. Barcha huquqlar himoyalangan.
       </p>
     </footer>
   );
