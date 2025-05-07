@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white text-center py-4 flex items-center justify-around">
-      <div className="text-yellow-400 font-bold text-2xl">MyBrand</div>
+      <div className="text-yellow-400 font-bold text-2xl">XM Store</div>
       <div className="flex justify-center gap-6 mt-4">
         <a href="#" className="hover:text-yellow-300">
           Bosh sahifa
