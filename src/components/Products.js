@@ -11,7 +11,7 @@ const fetchData = async (url) => {
 async function Products() {
   const { products } = await fetchData(`https://dummyjson.com/product`);
   return (
-    <div className="py-5 px-7 grid grid-cols-4 gap-5">
+    <div className="py-5 px-7 grid lg:grid-cols-4 gap-5 md:grid-cols-3 sm:grid-cols-2 max-sm:px-12">
       {products.map((product) => {
         return (
           <div
